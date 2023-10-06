@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff url(/images/background.png) repeat-x;
+    background-size: cover;
+}
+
+#fondoContenido{
+    position:relative;
+    background-color: #fff;
+    margin: 5% auto 5% auto;
+    width: 920px;
+    border: initial;
+    padding: 20px;
+}
+
+#encabezado{
+    background-image: url(/images/banner.jpg);
+    height: 250px;
+    width: 880px;
+    margin: auto;
+}
+
+#encabezado h1{
+    font-size: 50px;
+    color: #488000;   
+    text-align: center;
+}
+
+#menu{
+    width: 880px;
+    height: 30px;
+    background-color: #488000;
+}
+
+#menu a{
+    color: #fff;
+    font-size: large;
+    text-align: center;
+}
+
+#container td{
+    border-right: 1px solid white;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+#container{
+    padding: 2px;
+}
+
+#noticias{
+    width: 200px;
+    margin-top: 10px;
+    margin-right: 3px;
+}
+
+#noticias p{
+    text-align: justify;
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+
+#fondoContenido .redText{
+    color: red;
+}
+
+#fondoContenido .imgParrafos{
+    float: left;
+    margin: 5px 5px 5px 0px;
+}
+
+#relevantes{
+    margin-top: 50px;
+    width: 200px;
+    margin-right: 3px;
+}
+
+#relevantes p{
+    text-align: justify;
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+
+#articuloPrincipal{
+    width: 600px;
+    margin-top: 10px;
+    float: right;
+}
+
+#articulosSecundarios{
+    float: left;
+}
+
+#articuloPrincipal #Rana{
+    float: left;
+    margin: 5px 15px 5px 0px;
+    width: 210px;
+}
+
+#articuloPrincipal p{
+    text-align: justify;
+    line-height: 1.2;
+}
+
+footer{
+    border-top: double;
+    clear: both;
+    height: 66px;
+    text-align: center;
+    background-color: #488000;
+    padding-top: 10px;
+    color: #fff;
+}
+
+footer a{
+    color: #fff;
+    font-size: large;
+}
