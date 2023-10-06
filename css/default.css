@@ -5,7 +5,7 @@
 }
 
 body{
-    background: #fff url(/images/background.png) repeat-x;
+    background: #fff url("../images/background.png") repeat-x;
     background-size: cover;
 }
 
